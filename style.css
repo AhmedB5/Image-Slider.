@@ -1,0 +1,38 @@
+img {
+  width: 660px;
+  height: 370px;
+}
+
+.main {
+  width: min-content;
+  margin: auto;
+  display: flex;
+}
+
+.back1 {
+  background-color: rgb(241, 237, 237);
+  position: relative;
+  right: -60px;
+  top: 157px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.back2 {
+  background-color: rgb(241, 237, 237);
+  position: relative;
+  right: 60px;
+  top: 157px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+i {
+  font-size: 37px;
+  opacity: 0.8;
+}
+
