@@ -36,3 +36,28 @@ i {
   opacity: 0.8;
 }
 
+@media (max-width: 767px) {
+  .main {
+    position: relative;
+    left: -60px;
+  }
+  img {
+    width: 420px;
+    height: 340px;
+  }
+}
+@media (min-width: 768px) and (max-width: 850px) {
+  .main {
+    position: relative;
+    left: -65px;
+  }
+  img {
+    width: 814px;
+    height: 340px;
+    height: 100%;
+  }
+  .back1,
+  .back2 {
+    top: 240px;
+  }
+}
